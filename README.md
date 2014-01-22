@@ -168,9 +168,11 @@ Interpolation looks at the values around the 'blanks' and assumes that the missi
 
 There are many methodologies for interpolating point data:
 
-- A heatmap is one notable example, where each point is given a weight based on its value, which is then represented in terms of a "hotter" color. 
-- Another common example is contour lines. Contour lines take point sample data and draw lines around them that represent a continuous estimated value. This technique is often employed in the creation of elevation maps.
+- A heatmap is one notable example, where each point is given a weight based on its value, which is then represented in terms of a "hotter" color.
+- Another common example is [contour lines](http://en.wikipedia.org/wiki/Contour_line). Contour lines take point sample data and draw lines around them that represent a continuous estimated value. This technique is often employed in the creation of elevation maps.
+![](img/contours.jpg)
 - A TIN (Triangulated Irregular Network) draws triangles between points that can be used to visualize terrains.
+![](img/tin.jpg)
 - Voronoi diagrams take a set of points and turn them into polygons of all of the area around them.
 
 ## Conceptual review
