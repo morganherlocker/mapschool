@@ -170,9 +170,9 @@ There are many methodologies for interpolating point data:
 
 - A heatmap is one notable example, where each point is given a weight based on its value, which is then represented in terms of a "hotter" color.
 - Another common example is [contour lines](http://en.wikipedia.org/wiki/Contour_line). Contour lines take point sample data and draw lines around them that represent a continuous estimated value. This technique is often employed in the creation of elevation maps.
-![](img/contours.jpg)
-- A TIN (Triangulated Irregular Network) draws triangles between points that can be used to visualize terrains.
-![](img/tin.jpg)
+<img src='img/contours.jpg' style='width:50%'>
+- A [TIN](http://en.wikipedia.org/wiki/Triangulated_irregular_network) (Triangulated Irregular Network) draws triangles between points that can be used to visualize terrains.
+<img src='img/tin.jpg' style='width:50%'>
 - Voronoi diagrams take a set of points and turn them into polygons of all of the area around them.
 
 ## Conceptual review
